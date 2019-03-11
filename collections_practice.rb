@@ -20,6 +20,13 @@ def swap_elements(array)
   array
 end
 
+def swap_elements_from_to(array, index, destination_index)
+  placeholder = array[destination_index]
+  array[destination_index] = array[index]
+  array[index] = placeholder
+  array
+end
+
 def reverse_array(int_array)
   int_array = int_array.reverse
 end
@@ -52,3 +59,5 @@ def add_s(array)
     index_count != 2 ? word = "#{word}s" : word
   end
 end
+
+
