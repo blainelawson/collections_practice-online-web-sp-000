@@ -51,6 +51,6 @@ def add_s(array)
     index_count += 1
     index_count != 2 ? word = "#{word}s" : word
 
-    
+
   end
 end
