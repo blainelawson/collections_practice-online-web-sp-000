@@ -48,7 +48,6 @@ def add_s(array)
   index_count = 0
 
   array.collect do |word|
-    binding.pry
     index_count != 1 ? word = "#{word}s" : word
   end
 end
