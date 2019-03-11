@@ -50,7 +50,5 @@ def add_s(array)
   array.collect do |word|
     index_count += 1
     index_count != 2 ? word = "#{word}s" : word
-
-
   end
 end
