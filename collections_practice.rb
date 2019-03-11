@@ -45,5 +45,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  binding.pry
+  
+  array.collect do |word|
+    binding.pry
+  end
 end
